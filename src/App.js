@@ -24,6 +24,14 @@ export default function App() {
             rel="noreferrer"
           >
             open-sourced on GitHub
+          </a>{" "}
+          and is hosted on{" "}
+          <a
+            href="https://super-strudel-925eaf.netlify.app/?"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>
