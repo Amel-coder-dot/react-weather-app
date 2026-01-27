@@ -63,7 +63,7 @@ export default function Weather(props) {
         <WeatherInfo data={weatherData} />
         <WeatherForecast
           coordinates={{
-            lon: weatherData.data.coordinates.longitude,
+            lon: weatherData.coordinates.longitude,
             lat: weatherData.coordinates.latitude,
           }}
         />
